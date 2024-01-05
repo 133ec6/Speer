@@ -42,7 +42,7 @@ MongoDB instance running locally or remotely
 
 **2 :- import monogoDb data from step folder**
 
-**3 :- Run npm i in terminal**
+**3 :- Run npm i**
 
 **4:- Create .env file and add JWT_SECRET = secretcode**
 
@@ -52,5 +52,9 @@ MongoDB instance running locally or remotely
 
 
 **Test**
+
+**Change vlaues of email , password, nodeIdHere, userIdHere in notes.jest.js file**
+
+**There might error come while runnig test, as it will trigger app.listen again and again so comment out that if error comes**
 
 **Run npx jest**

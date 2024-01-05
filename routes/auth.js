@@ -6,7 +6,7 @@ const { body, validationResult } = require('express-validator');
 const jwt = require('jsonwebtoken');
 const fetchuser = require('../middleware/fetchuser');
 // const { useId } = require('react');
-const JWT_SECRET="secretcode";
+const JWT_SECRET=process.env.JWT_SECRET;
 
 router.post('/signup',[
     body('name').isLength({min:3}),
@@ -93,17 +93,5 @@ router.post('/login',[
 
 })
 
-router.post('/getuser', fetchuser,async (req,res)=>{
-
-  try {
-    const userId=req.user.id;
-    const user = await User.findById(userId);
-    console.log(user);
-    res.send(user);
-  } catch(err){
-    console.error(err.message);
-    res.status(500).send("Internal server error")
-  }
-})
 
 module.exports = router

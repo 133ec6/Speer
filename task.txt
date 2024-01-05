@@ -63,8 +63,6 @@ Search Functionality: does the code implement text indexing and search functiona
 
 
 
-Complete what you can from the assessment to the best of your ability and submit to https://docs.google.com/forms/d/e/1FAIpQLSeYU8P-RlgCcl8eI8vttI7AI-8OfywP-YFzkWzML_apXj4bSA/viewform?usp=sf_link.
-
-
+Complete what you can from the assessment to the best of your ability and submit
 
 Best of luck!
