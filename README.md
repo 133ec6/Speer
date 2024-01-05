@@ -40,7 +40,7 @@ MongoDB instance running locally or remotely
 
 **1 :- Clone the repository**
 
-**2 :- import monogoDb data from step folder**
+**2 :- import monogoDb data from speer folder**
 
 **3 :- Run npm i**
 
